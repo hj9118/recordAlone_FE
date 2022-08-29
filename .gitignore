@@ -1,0 +1,6 @@
+node_modules
+cctv_info.json
+university_info.json
+
+#API_KEY
+.env

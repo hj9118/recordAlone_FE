@@ -1,0 +1,149 @@
+[
+  {
+    "local": "서울청",
+    "jurisdiction": "서울성북",
+    "name": "돈암",
+    "section": "지구대",
+    "address": "서울특별시 성북구  아리랑로5길 54"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울성북",
+    "name": "안암",
+    "section": "지구대",
+    "address": "서울특별시 성북구  지봉로21길 45"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울성북",
+    "name": "길음",
+    "section": "지구대",
+    "address": "서울특별시 성북구  삼양로13길 51 길음지구대"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울성북",
+    "name": "정릉",
+    "section": "파출소",
+    "address": "서울특별시 성북구  솔샘로 111"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울성북",
+    "name": "정릉2",
+    "section": "파출소",
+    "address": "서울특별시 성북구  정릉로26길 6 정릉2파출소"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울성북",
+    "name": "성북",
+    "section": "파출소",
+    "address": "서울특별시 성북구  성북로 94  성북파출소"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울동대문",
+    "name": "답십리",
+    "section": "지구대",
+    "address": "서울시 동대문구 사가정로 2길 9"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울동대문",
+    "name": "용신",
+    "section": "지구대",
+    "address": "서울특별시 동대문구  청계천로549"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울동대문",
+    "name": "청량리",
+    "section": "파출소",
+    "address": "서울특별시 동대문구 약령시로21길 15"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울동대문",
+    "name": "제기",
+    "section": "파출소",
+    "address": "서울특별시 동대문구 약령시로 17길 59-11"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울동대문",
+    "name": "전농1",
+    "section": "파출소",
+    "address": "서울특별시 동대문구 서울시립대로 56"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울동대문",
+    "name": "전농2",
+    "section": "파출소",
+    "address": "서울특별시 동대문구 전농로38다길 21"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울동대문",
+    "name": "장안1",
+    "section": "파출소",
+    "address": "서울특별시 동대문구 한천로20길 7"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울동대문",
+    "name": "장안2",
+    "section": "파출소",
+    "address": "서울특별시 동대문구  답십리로 69길 100"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울동대문",
+    "name": "이문",
+    "section": "지구대",
+    "address": "서울특별시 동대문구  한천로 402"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울동대문",
+    "name": "휘경",
+    "section": "파출소",
+    "address": "서울특별시 동대문구  한천로 266"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울동대문",
+    "name": "회기",
+    "section": "파출소",
+    "address": "서울특별시 동대문구  회기로18길 2"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울종암",
+    "name": "석관",
+    "section": "파출소",
+    "address": "서울특별시 성북구  화랑로32가길 20 석관파출소"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울종암",
+    "name": "장위",
+    "section": "지구대",
+    "address": "서울특별시 성북구  화랑로19길 85 장위지구대"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울종암",
+    "name": "월곡",
+    "section": "지구대",
+    "address": "서울특별시 성북구  종암로32길 5 월곡지구대"
+  },
+  {
+    "local": "서울청",
+    "jurisdiction": "서울종암",
+    "name": "종암",
+    "section": "파출소",
+    "address": "서울특별시 성북구  종암로23길 52"
+  }
+]
