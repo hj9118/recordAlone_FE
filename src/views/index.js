@@ -1,5 +1,5 @@
 import React from 'react';
-import { styled } from '@mui/material/styles';
+import { Link } from 'react-router-dom';
 import {
   Paper,
   Typography,
@@ -7,25 +7,24 @@ import {
   Grid,
   Chip,
   Accordion,
-  AccordionActions,
   AccordionDetails,
   AccordionSummary,
 } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import gif from '../assets/indexGIF.gif';
-import SchoolIcon from '@mui/icons-material/School';
+import index_img from '../assets/index_img.png';
 
 const index = () => {
-  const ItemBox = styled(Paper)(({ theme }) => ({
-    backgroundColor: 'lightgray',
-    width: '280px',
-    height: '140px',
-    padding: '20px',
-  }));
+  const alert = () => {
+    window.alert('미담당 파트로 메인페이지로 이동합니다.');
+  };
 
   return (
     <>
-      <Paper style={{ width: '100%', backgroundColor: '#f5f5f5' }}>
+      <Paper
+        elevation={0}
+        style={{ width: '100%', backgroundColor: '#f5f5f5' }}
+      >
         <Grid container justifyContent='center' alignItems='center'>
           <Grid item xs={10} md={8}>
             <img src={gif} />
@@ -35,43 +34,73 @@ const index = () => {
               자취고민 덜어주는
             </Typography>
             <Typography
-              style={{ fontSize: '38px', color: '#7289da', fontWeight: 'bold' }}
+              style={{
+                fontSize: '38px',
+                color: '#7289da',
+                fontWeight: 'bold',
+                marginBottom: '10px',
+              }}
             >
               자취를 남기다
             </Typography>
-            <Button
-              variant='outlined'
-              style={{ marginRight: '10px', marginBottom: '30px' }}
+            <Link
+              to='/map'
+              onClick={alert}
+              style={{
+                border: '1px solid #7289da',
+                padding: '10px 20px',
+                borderRadius: '5px',
+                marginRight: '10px',
+                textDecoration: 'none',
+                color: '#7289da',
+              }}
             >
               로그인
-            </Button>
-            <Button variant='outlined' style={{ marginBottom: '30px' }}>
+            </Link>
+            <Link
+              to='/map'
+              onClick={alert}
+              style={{
+                border: '1px solid #7289da',
+                padding: '10px 20px',
+                borderRadius: '5px',
+                textDecoration: 'none',
+                color: '#7289da',
+              }}
+            >
               회원가입
-            </Button>
+            </Link>
           </Grid>
         </Grid>
       </Paper>
-      <Paper
-        style={{ width: '100%', height: '600px', backgroundColor: 'lightgray' }}
-      >
-        <Typography
-          fontSize='38px'
-          textAlign='center'
-          paddingTop='30px'
-          fontWeight='bold'
+      <Paper elevation={0} style={{ width: '100%' }}>
+        <Grid
+          container
+          direction='column'
+          justifyContent='center'
+          alignItems='center'
+          marginY='2rem'
         >
-          대학가 자취생들 고민해결
-        </Typography>
-        <Grid container justifyContent='center' alignItems='center'>
-          <Typography textAlign='center' fontSize='14px'>
-            학교 인증을 받아야 가입 가능한 광고없는 후기! <br />
-            안전지도로 내 주변 CCTV와 경찰서 위치 확인으로 안전도 확인하고
-            <br />
-            익명으로 주변 사람들과 커뮤니티로 공감대도 형성 가능합니다. <br />
-          </Typography>
+          <Grid>
+            <img src={index_img} width='400px' />
+          </Grid>
+          <Grid>
+            <Typography fontSize='38px' paddingTop='30px' fontWeight='bold'>
+              대학가 자취생들 고민해결
+            </Typography>
+            <Grid container justifyContent='center' alignItems='center'>
+              <Typography textAlign='center' fontSize='14px'>
+                학교 인증을 받아야 가입 가능한 광고없는 후기! <br />
+                안전지도로 내 주변 CCTV와 경찰서 위치 확인으로 안전도 확인하고
+                <br />
+                익명으로 주변 사람들과 커뮤니티로 공감대도 형성 가능합니다.{' '}
+                <br />
+              </Typography>
+            </Grid>
+          </Grid>
         </Grid>
       </Paper>
-      <Paper style={{ width: '100%' }}>
+      <Paper elevation={0} style={{ width: '100%' }}>
         <Paper
           elevation={0}
           direction='column'
