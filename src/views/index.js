@@ -25,10 +25,10 @@ const index = () => {
         style={{ width: '100%', backgroundColor: '#f5f5f5' }}
       >
         <Grid container justifyContent='center' alignItems='center'>
-          <Grid item xs={10} md={8}>
-            <img src={gif} />
+          <Grid item xs={10} md={8} xl={5}>
+            <img src={gif} marginLeft='50px'/>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={5}>
             <Typography style={{ fontSize: '38px' }}>
               자취고민 덜어주는
             </Typography>

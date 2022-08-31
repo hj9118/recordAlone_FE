@@ -1,7 +1,5 @@
 import React from 'react';
 import { MapMarker } from 'react-kakao-maps-sdk';
-import { IconButton } from '@mui/material';
-import { styled } from '@mui/material/styles';
 
 const Overlay = () => {
   const positions = [

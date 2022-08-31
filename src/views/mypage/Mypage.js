@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Layout from '../Layout';
 import Option from '../../component/template/Option';
-import { Grid, Typography, Avatar, Button, Tooltip, Divider, Paper, IconButton } from '@mui/material';
+import { Grid, Typography, Avatar, Button, Tooltip, Divider, IconButton } from '@mui/material';
 import LockIcon from '@mui/icons-material/Lock';
 import LockOpenIcon from '@mui/icons-material/LockOpen';
 import EditIcon from '@mui/icons-material/Edit';
