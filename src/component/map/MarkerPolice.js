@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
-import { CustomOverlayMap, MapMarker } from 'react-kakao-maps-sdk';
+import React from 'react';
+import { MapMarker } from 'react-kakao-maps-sdk';
 import { IconButton } from '@mui/material';
-import LocalPoliceIcon from '@mui/icons-material/LocalPolice';
 import { styled } from '@mui/material/styles';
 
 const Overlay = () => {
@@ -84,16 +83,16 @@ const Overlay = () => {
     },
   ];
 
-  const Police = styled(IconButton)(({ theme }) => ({
-    backgroundColor: 'rgba(217, 107, 119, 0.8)',
-    width: '30px',
-    height: '30px',
-    color: 'white',
-    borderRadius: '50%',
-    '&:hover': {
-      backgroundColor: 'rgba(217, 107, 119, 0.9)',
-    },
-  }));
+  // const Police = styled(IconButton)(({ theme }) => ({
+  //   backgroundColor: 'rgba(217, 107, 119, 0.8)',
+  //   width: '30px',
+  //   height: '30px',
+  //   color: 'white',
+  //   borderRadius: '50%',
+  //   '&:hover': {
+  //     backgroundColor: 'rgba(217, 107, 119, 0.9)',
+  //   },
+  // }));
 
   return (
     <>

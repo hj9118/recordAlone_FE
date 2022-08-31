@@ -4,7 +4,7 @@ import { styled } from '@mui/material/styles';
 
 const Comment = () => {
   const [value, setValue] = useState('');
-  const [userName] = useState('User');
+  // const [userName] = useState('User');
   const [showreply, setShowreply] = useState(true);
 
   const handleChange = (e) => {

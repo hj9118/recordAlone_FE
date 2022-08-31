@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Layout from '../Layout';
-import { styled } from '@mui/material/styles';
 import Option from '../../component/template/Option';
 import { Grid, Typography, Avatar, Button, Tooltip, Divider, Paper, IconButton } from '@mui/material';
 import LockIcon from '@mui/icons-material/Lock';
@@ -16,14 +15,7 @@ const Mypage = () => {
   const [pro, setPro] = useState(false);
   const [coin, setCoin] = useState(3);
   const [name, setName] = useState('기본 닉네임');
-  const [photo, setPhoto] = useState(null);
-
-  const PageBox = styled(Paper)(({ theme }) => ({
-    backgroundColor: 'lightgray',
-    width: '280px',
-    padding: '20px',
-    margin: '5px',
-  }));
+  // const [photo, setPhoto] = useState(null);
 
   const changeName = (e) => {
     setName(e.target.value);
@@ -90,14 +82,14 @@ const Mypage = () => {
                 alignItems='center'
               >
                 <Typography fontWeight='bold' fontSize='20px'>
-                  {pro == true ? (
+                  {pro === true ? (
                     <Typography fontWeight='bold'> Pro </Typography>
                   ) : (
                     <Typography> 일반 등급 </Typography>
                   )}
                 </Typography>
                 {/* pro 옵션 가입시 비활성화 버튼, 미가입시 가입버튼 활성화 */}
-                {pro == true ? (
+                {pro === true ? (
                   <Button
                     variant='contained'
                     startIcon={<LockOpenIcon />}

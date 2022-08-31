@@ -1,15 +1,15 @@
 import { Box, Button, Paper, Stack, TextField } from '@mui/material';
 import Editor from '../../component/board/Editor';
-import { useMemo, useState, useRef } from 'react';
+import { useState } from 'react';
 import Choice from '../../component/template/Choice';
 import Layout from '../Layout';
 
 const Write = () => {
 
-  const [id, setId] = useState();
+  // const [id, setId] = useState();
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
-  const [category, setCategory] = useState('');
+  // const [category, setCategory] = useState('');
   const [showError, setShowError] = useState(false);
 
   const isEmpty = (value) => {

@@ -1,6 +1,4 @@
 import React from 'react'
-import Layout from '../Layout';
-import Option from '../../component/template/Option';
 import { Grid } from '@mui/material';
 import Cards from '../../component/template/CardLoading'
 

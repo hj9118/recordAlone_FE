@@ -26,15 +26,15 @@ const rows = [
 ];
 
 const Board = () => {
-  const [user, setUser] = useState([]);
+  // const [user, setUser] = useState([]);
 
   useEffect(() => {
     // user: 작성자 값
   });
 
-  const loadUsers = async () => {
-    const result = await axios.get('http://localhost:8080/user');
-  };
+  // const loadUsers = async () => {
+  //   const result = await axios.get('http://localhost:8080/user');
+  // };
   return (
     <Layout>
       <Grid style={{ width: '80%', margin: 'auto' }}>

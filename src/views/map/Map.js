@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Header from '../../component/template/Header';
-import { IconButton, Grid } from '@mui/material';
+import { Grid } from '@mui/material';
 import { Map, ZoomControl } from 'react-kakao-maps-sdk';
 import SideTab from './SideTab';
 import MarkerUni from '../../component/map/MarkerUni';
